@@ -1,0 +1,46 @@
+.social-proof {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.logo-container:hover {
+  opacity: 1;
+}
+
+.logo {
+  height: 30px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.stat h3 {
+  color: #805ad5;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat p {
+  color: #cbd5e0;
+  font-size: 1.1rem;
+}
